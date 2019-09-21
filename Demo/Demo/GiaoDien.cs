@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace Demo
 {
@@ -34,7 +35,7 @@ namespace Demo
         }
         private void GiaoDien_Load(object sender, EventArgs e)
         {
-          
+            PlayMusic();
         }
 
         private void BtnPlayA_Click(object sender, EventArgs e)
@@ -60,6 +61,32 @@ namespace Demo
         private void Label1_Click(object sender, EventArgs e)
         {
 
+        }
+        WindowsMediaPlayer sound = new WindowsMediaPlayer() ;
+
+        public void PlayMusic()
+        {  
+            sound.URL = "coconut_song.wav"; 
+        }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+            
+                
+        }
+
+        private void PictureBox4_Click(object sender, EventArgs e)
+        {
+            if (sound.enabled)
+            {
+                sound.controls.pause();
+                sound.enabled = !sound.enabled;
+            }
+            else
+            {
+                sound.controls.play();
+                sound.enabled = !sound.enabled;
+            }
         }
     }
 }

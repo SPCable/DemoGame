@@ -63,6 +63,56 @@ namespace Demo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _122320 {
+            get {
+                object obj = ResourceManager.GetObject("122320", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2 {
+            get {
+                object obj = ResourceManager.GetObject("2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _27304b9b14ce9bd8a28ca637ed92070e_blue_circle_question_mark_icon_by_vexels {
+            get {
+                object obj = ResourceManager.GetObject("27304b9b14ce9bd8a28ca637ed92070e-blue-circle-question-mark-icon-by-vexels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap animation_3993429__340 {
+            get {
+                object obj = ResourceManager.GetObject("animation-3993429__340", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap circle_64 {
             get {
                 object obj = ResourceManager.GetObject("circle-64", resourceCulture);
@@ -76,6 +126,26 @@ namespace Demo.Properties {
         internal static System.Drawing.Bitmap error_1_ {
             get {
                 object obj = ResourceManager.GetObject("error(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_pastel_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-pastel-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap volume_512 {
+            get {
+                object obj = ResourceManager.GetObject("volume-512", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

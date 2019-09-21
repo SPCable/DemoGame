@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database.cs" />
     <Compile Include="GiaoDien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +100,38 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\circle-64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pastel-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animation-3993429__340.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27304b9b14ce9bd8a28ca637ed92070e-blue-circle-question-mark-icon-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\122320.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
